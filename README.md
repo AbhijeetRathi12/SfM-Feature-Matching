@@ -1,14 +1,5 @@
 # SfM-Feature-Matching
 
-## Table of Contents
-
-- [Overview](#overview)
-- [Requirements](#requirements)
-- [Usage](#usage)
-- [Pipeline Overview](#pipeline-overview)
-- [Results](#results)
-- [Acknowledgments](#acknowledgments)
-
 ## Overview
 
 | **SfM Results** |  |
@@ -17,6 +8,15 @@
 | Before and After Bundle Adjustment on Images **[1](Data/1.png)**, **[2](Data/2.png)**, **[3](Data/3.png)**  | Before and After Bundle Adjustment on all 5 Images  |
 
 This project implements a Structure from Motion (SfM) pipeline using classical computer vision techniques such as SIFT for feature matching and RANSAC for outlier rejection. It includes various stages such as camera pose estimation, 3D point triangulation, and bundle adjustment to refine the poses and points.
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Requirements](#requirements)
+- [Usage](#usage)
+- [Pipeline Overview](#pipeline-overview)
+- [Results](#results)
+- [Acknowledgments](#acknowledgments)
 
 ## Requirements
 
